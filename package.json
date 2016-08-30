@@ -1,0 +1,36 @@
+{
+  "name": "hapi-collection-json",
+  "version": "0.0.0",
+  "description": "Allows Hapi servers to respond requests with hypermedia-type Collection+JSON.",
+  "main": "lib/index.js",
+  "scripts": {
+    "pretest": "jshint lib test",
+    "test": "lab -M 20000 -v -r console -o stdout -r html -o test/testResults.html --leaks test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovanebribeiro/hapi-collection-json.git"
+  },
+  "keywords": [
+    "hapi",
+    "collection+json",
+    "hypermedia",
+    "content-type"
+  ],
+  "author": "Giovane Boaviagem Ribeiro (giovanebribeiro@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giovanebribeiro/hapi-collection-json/issues"
+  },
+  "homepage": "https://github.com/giovanebribeiro/hapi-collection-json#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "hapi": "^15.0.2"
+  },
+  "devDependencies": {
+    "code": "^3.0.2",
+    "conventional-changelog-cli": "^1.2.0",
+    "jshint": "^2.9.3",
+    "lab": "^11.0.1"
+  }
+}
